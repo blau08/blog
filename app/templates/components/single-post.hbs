@@ -8,7 +8,10 @@
       <span class="glyphicon glyphicon-trash" {{action 'delete' post}}></span>
       {{update-post post=post update="update"}}
       <hr>
-      <a href="{{post.image}}"><img src="{{post.image}}" width="500"></a>
+      <div id="test">
+
+        <a href="{{post.image}}"><img src="{{post.image}}" class="img-responsive" width="500"></a>
+      </div>
       <hr>
     </div>
   <p>{{post.content}}</p>
